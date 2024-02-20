@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./scss/project2.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.0-dist/css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./scss/project2_journal.css" />
+    <title>Journal</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <!-- the sider bar for whole page -->
+      <div class="side-top">
+        <!-- the two lines inside the menu -->
+        <div class="rec"></div>
+
+        <div class="menu">
+          <h2>Explore vacations</h2>
+          <div class="menu-content">
+            <div class="menu1">
+              <div class="menu1-header">
+                <h3>CHOOSE A CONTINENT</h3>
+                <hr />
+              </div>
+              <div class="choice choice1-1">
+                <h4>Africa</h4>
+                <p>6 VACATIONS</p>
+                <div class="rightarr">
+                  <p>&#707;</p>
+                </div>
+              </div>
+              <div class="choice choice1-2">
+                <h4>Asia</h4>
+                <p>6 VACATIONS</p>
+                <div class="rightarr">
+                  <p>&#707;</p>
+                </div>
+              </div>
+              <div class="choice choice1-3">
+                <h4>Europe</h4>
+                <p>12 VACATIONS</p>
+                <div class="rightarr">
+                  <p>&#707;</p>
+                </div>
+              </div>
+            </div>
+            <div class="menu1">
+              <div class="menu1-header">
+                <h3>CHOOSE A DESTINATION</h3>
+                <hr />
+              </div>
+              <div class="choice choice2-1">
+                <h4>France</h4>
+                <p>6 VACATIONS</p>
+                <div class="rightarr">
+                  <p>&#707;</p>
+                </div>
+              </div>
+              <div class="choice choice2-2">
+                <h4>Indonesia</h4>
+                <p>6 VACATIONS</p>
+                <div class="rightarr">
+                  <p>&#707;</p>
+                </div>
+              </div>
+              <div class="choice choice2-3">
+                <h4>Greece</h4>
+                <p>12 VACATIONS</p>
+                <div class="rightarr">
+                  <p>&#707;</p>
+                </div>
+              </div>
+              <div class="choice choice2-4">
+                <h4>Egypt</h4>
+                <p>12 VACATIONS</p>
+                <div class="rightarr">
+                  <p>&#707;</p>
+                </div>
+              </div>
+            </div>
+            <div class="menu2">
+              <div class="menu2-header">
+                <h3>CONTACT US</h3>
+                <hr />
+              </div>
+              <div class="choice1">
+                <p class="choice1-text">Schedule a call</p>
+                <div class="rightarr1">
+                  <p>&#707;</p>
+                </div>
+              </div>
+              <div class="choice1">
+                <p class="choice1-text">info@template.com</p>
+                <div class="rightarr1">
+                  <p>&#707;</p>
+                </div>
+              </div>
+              <div class="choice1">
+                <p class="choice1-text">(555)555-5555</p>
+                <div class="rightarr1">
+                  <p>&#707;</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-media">
+              <p>FOLLOW US:</p>
+              <div class="social-icon">
+                <div class="icon-1">
+                  <img src="./image/ins.svg" alt="" />
+                </div>
+                <div class="icon-1">
+                  <img src="./image/facebook.svg" alt="" />
+                </div>
+                <div class="icon-1">
+                  <img src="./image/linkedin.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="close">X</div>
+        </div>
+
+        <!-- end of side top -->
+      </div>
+
+      <div class="side-bottom">
+        <div class="scrollbar">
+          <!-- end of scrollbar -->
+        </div>
+
+        <div class="social-media">
+          <!-- icon round border -->
+          <div class="social-icon">
+            <!-- img for ins -->
+            <img src="./image/ins.svg" alt="ins" />
+          </div>
+
+          <div class="social-icon">
+            <!-- img for fb -->
+            <img src="./image/facebook.svg" alt="fb" />
+          </div>
+
+          <div class="social-icon">
+            <!-- img for linkedin -->
+            <img src="./image/linkedin.svg" alt="linkedin" />
+          </div>
+
+          <!-- end of social media -->
+        </div>
+
+        <!-- end of side bottom -->
+      </div>
+
+      <!-- end of side bar -->
+    </div>
+
+    <!-- the white color when scrolling down -->
+    <div class="nav1"></div>
+
+    <!-- after clicking destination the choices shows up -->
+    <div class="choices">
+      <h3>CHOOSE A LOCATION</h3>
+      <div class="allloc">
+        <div class="top">
+          <div class="location loc1">
+            <h2>France</h2>
+            <h3>6 VACATIONS</h3>
+            <div class="rightarr">
+              <p>&#707;</p>
+            </div>
+          </div>
+          <div class="location loc2">
+            <h2>Indonesia</h2>
+            <h3>6 VACATIONS</h3>
+            <div class="rightarr">
+              <p>&#707;</p>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="location loc3">
+            <h2>Greece</h2>
+            <h3>6 VACATIONS</h3>
+            <div class="rightarr">
+              <p>&#707;</p>
+            </div>
+          </div>
+          <div class="location loc4">
+            <h2>Egypt</h2>
+            <h3>6 VACATIONS</h3>
+            <div class="rightarr">
+              <p>&#707;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div><a href="./project2.html" class="name">COVILLA</a></div>
+      <div class="navlink">
+        <a class="linka" href="">ABOUT</a>
+        <a class="linka" href="./project2_journal.html">JOURNAL</a>
+        <a class="linka" href="./project2_support.html">SUPPORT</a>
+      </div>
+      <div class="destination">
+        <p class="desta">DESTINATION</p>
+      </div>
+      <!-- end of nav -->
+    </div>
+
+    <header>
+      <div class="overlay"></div>
+      <div class="intro">
+        <h2>COVILLA JOURNAL</h2>
+        <h1>
+          Insporation and tips <br />
+          for your next vacation
+        </h1>
+
+        <!-- end of intro -->
+      </div>
+    </header>
+
+    <section class="popular-post">
+      <div class="popular-post-wrapper">
+        <div class="pop-post-info-wrapper">
+          <div class="leftpost">
+            <div class="website">
+              <h2>
+                What Will Website Be Like <br />
+                In 100 Years?
+              </h2>
+              <p>
+                Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec
+                ac neque. Sed vitae sollicitudin elit, ac tristique.
+              </p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+
+          <div class="rightpost">
+            <div class="top-rightpost">
+              <h3>POPULAR POSTS</h3>
+              <hr />
+            </div>
+            <div class="right-post">
+              <img src="./image/post1.jpeg" alt="" />
+              <div class="right-post-info">
+                <h4>APRIL 19, 2021</h4>
+                <h3>7 of the Best Examples of Beautiful Blog Design</h3>
+              </div>
+            </div>
+            <div class="right-post">
+              <img src="./image/post2.jpeg" alt="" />
+              <div class="right-post-info">
+                <h4>APRIL 19, 2021</h4>
+                <h3>Designers Who Changed the Web</h3>
+              </div>
+            </div>
+            <div class="right-post">
+              <img src="./image/post3.jpeg" alt="" />
+              <div class="right-post-info">
+                <h4>APRIL 19, 2021</h4>
+                <h3>10 Web Design Blogs You Can't Miss</h3>
+              </div>
+            </div>
+            <div class="right-post">
+              <img src="./image/post4.jpeg" alt="" />
+              <div class="right-post-info">
+                <h4>APRIL 19, 2021</h4>
+                <h3>5 Principles Of Effective Web Design</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end of popular post wrapper -->
+      </div>
+
+      <!-- end of section popular post -->
+    </section>
+
+    <section class="browse">
+      <div class="browse_wrapper">
+        <div class="top_browse">
+          <h3>RECENT POSTS</h3>
+          <h2>Browse our journal</h2>
+        </div>
+        <div class="mid_browse">
+          <div class="journals">
+            <div class="jtop">
+              <img src="./image/post1.jpeg" alt="" />
+              <p>APRIL 19, 2021</p>
+            </div>
+            <div class="jbottom">
+              <h4>
+                7 of the Best Examples of <br />
+                Beautiful Blog Design
+              </h4>
+              <p>
+                Donec sed auctor orci. In a nisl vel nisi egestas <br />
+                efficitur nec ac neque. Sed vitae sollicitudin elit, ac <br />
+                tristique.
+              </p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+          <div class="journals">
+            <div class="jtop">
+              <img src="./image/post2.jpeg" alt="" />
+              <p>APRIL 19, 2021</p>
+            </div>
+            <div class="jbottom">
+              <h4>
+                Designers Who Changed the <br />
+                Web
+              </h4>
+              <p>
+                Donec sed auctor orci. In a nisl vel nisi egestas <br />
+                efficitur nec ac neque. Sed vitae sollicitudin elit, ac <br />
+                tristique.
+              </p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+
+          <div class="journals">
+            <div class="jtop">
+              <img src="./image/post3.jpeg" alt="" />
+              <p>APRIL 19, 2021</p>
+            </div>
+            <div class="jbottom">
+              <h4>
+                10 Web Design Blogs You Can't <br />
+                Miss
+              </h4>
+              <p>
+                Donec sed auctor orci. In a nisl vel nisi egestas <br />
+                efficitur nec ac neque. Sed vitae sollicitudin elit, ac <br />
+                tristique.
+              </p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+
+          <div class="journals">
+            <div class="jtop">
+              <img src="./image/post4.jpeg" alt="" />
+              <p>APRIL 19, 2021</p>
+            </div>
+            <div class="jbottom">
+              <h4>
+                5 Principles Of Effective Web <br />
+                Design
+              </h4>
+              <p>
+                Donec sed auctor orci. In a nisl vel nisi egestas <br />
+                efficitur nec ac neque. Sed vitae sollicitudin elit, ac <br />
+                tristique.
+              </p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+
+          <div class="journals">
+            <div class="jtop">
+              <img src="./image/post5.jpeg" alt="" />
+              <p>APRIL 19, 2021</p>
+            </div>
+            <div class="jbottom">
+              <h4>
+                How to improve Web Design <br />
+                Process
+              </h4>
+              <p>
+                Donec sed auctor orci. In a nisl vel nisi egestas <br />
+                efficitur nec ac neque. Sed vitae sollicitudin elit, ac <br />
+                tristique.
+              </p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+
+          <div class="journals">
+            <div class="jtop">
+              <img src="./image/post6.jpeg" alt="" />
+              <p>APRIL 19, 2021</p>
+            </div>
+            <div class="jbottom">
+              <h4>
+                14 Common Misconceptions <br />
+                About Web Design
+              </h4>
+              <p>
+                Donec sed auctor orci. In a nisl vel nisi egestas <br />
+                efficitur nec ac neque. Sed vitae sollicitudin elit, ac <br />
+                tristique.
+              </p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="bot_browse">
+          <a href="">NEXT</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="covilla-promise">
+      <div class="darkoverlay">
+        <div class="promise">
+          <h3>COVILLA PROMISE</h3>
+
+          <h2>
+            Get unparalleled peace of mind <br />
+            from start to finish of your trip
+          </h2>
+
+          <a class="contact" href="">CONTACT US</a>
+
+          <a class="how" href="">HOW IT WORKS</a>
+        </div>
+
+        <!-- end of dark overlay -->
+      </div>
+
+      <!-- end of covilla promise -->
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-destinations">
+          <p>DESTINATIONS</p>
+          <div class="footer-links">
+            <a href="">FRANCE</a>
+            <a href="">INDONESIA</a>
+            <a href="">GREECE</a>
+            <a href="">EGYPT</a>
+          </div>
+        </div>
+        <div class="footer-logo">
+          <h3><span>CO</span>VILLA</h3>
+          <p>&copy; 2021 COVILLA</p>
+        </div>
+
+        <!-- end of footer wrapper -->
+      </div>
+
+      <!-- end of footer -->
+    </footer>
+
+    <script src="./project2_journal.js"></script>
+  </body>
+</html>
